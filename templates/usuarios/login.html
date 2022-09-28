@@ -21,10 +21,12 @@
                 </div>
             </div>
         </div>
+        {% include 'partials/_alertas.html' %}
         <div class="row">
             <div class="col-12">
                 <div class="contact-form-area">
-                    <form action="" method="">
+                    <form action="{% url 'login' %}" method="POST">
+                        {% csrf_token %}
                         <div class="row">
                             <div class="col-12 col-lg-12">
                             <label for="email"><b>Email</b></label>
