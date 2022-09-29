@@ -1,2 +1,2 @@
 # django-alura-receitas
-site de receitas curso Django Alura
+site de receitas crud curso Django Alura 
